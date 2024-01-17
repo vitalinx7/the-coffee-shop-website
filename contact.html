@@ -26,7 +26,7 @@
             </ul>
           </nav>
           <figure>
-            <img src="img/tyler-nix-WVl1N2C2zEA-unsplash.jpg" alt="Coffee Shop Contact" title="Coffee Shop" width="640" height="457">
+            <img class="contact" src="img/tyler-nix-WVl1N2C2zEA-unsplash.jpg" alt="Coffee Shop Contact" title="Coffee Shop" width="640" height="457">
             <figcaption>
               The Coffee Shop
             </figcaption>
@@ -34,8 +34,39 @@
         </header>
         <hr>
         <main>
-          <!-- our content-->
+          <section>
+         <h2>Our Contact Form</h2>
+         <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+          </p>
+            <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="youre-mail@.com" required>
+          </p>          
+          <p>        
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+         </form>
+        </section>
+        <section>
+          <h2>Location</h2>
+          <address>
+            145 Paco Trempton Lane, Suite B<br>
+            Mountain View, CA 23334-9987
+            <br><br>
+            Phone: <a href="tel:+88877777575">888-777-4444</a>
+          </address>
+        </section>
         </main>
+        <hr>
         <footer>
           <p>Copyright &copy; The Coffee Shop</p>
           <p>

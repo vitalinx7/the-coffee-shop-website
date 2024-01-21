@@ -40,13 +40,11 @@ nav, li {
 
 nav, a {    
     color: #ffff;
-    text-decoration: none;
-    
+    text-decoration: none;    
 
 }
 
-a:hover {
-    
+a:hover {    
     transform: scale(1.5);    
     
 }
@@ -55,18 +53,24 @@ a:hover {
     border-radius: 5px;      
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
     
 }
 
 .store-img {  
+    border-radius: 5px;      
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
     
 }
 
 .contact-img {
-    width: 640;
-    height: 457;
+    border-radius: 5px;      
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 table, th, td { 
@@ -85,9 +89,20 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
+    background-color: #b46464;
+    margin-right: -16;
+    margin-left: -16;
+    color:aliceblue;
+    padding-left: 20px;
        
 }
 
-.footer-link {
-    color: brown
+.footer-link {    
+    padding-right: 20px;
+    color: black;
 }
+
+.footer-link:hover {
+    color: rgb(161, 196, 248);
+}
+

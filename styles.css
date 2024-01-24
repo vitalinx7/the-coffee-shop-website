@@ -47,7 +47,8 @@ nav, a {
 }
 
 a:hover {    
-    transform: scale(1.5);    
+    transform: scale(1.5);
+    transition-duration: 0.5s;
     
 }
 
@@ -64,7 +65,6 @@ a:hover {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-
     
 }
 
@@ -78,7 +78,7 @@ a:hover {
 table, th, td { 
   border: 2px solid #333;
   border-collapse: collapse;
-  padding: 3px;
+  padding: 8px;
    
 }
 
@@ -86,6 +86,27 @@ main {
     display: flex;
     justify-content: center;    
  
+}
+
+section  {
+    padding: 35px;
+    
+}
+
+.submit-btn {
+    width: 250px;
+    height: 25;
+    margin: 23px 25px 23px;
+    color: black;
+    border: 1px solid #b46464;
+    border-radius: 5px;
+    background-color: whitesmoke;
+        
+}
+
+.submit-btn:hover {
+    background-color: #b46464;
+    color: white
 }
 
 footer {
@@ -107,4 +128,3 @@ footer {
 .footer-link:hover {
     color: rgb(161, 196, 248);
 }
-
